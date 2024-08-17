@@ -15,6 +15,12 @@ nav{
     margin-top: 60px;
 }
 
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
 ul{
     display: flex;
     justify-content: center;
@@ -28,6 +34,9 @@ ul > li {
 
 li a{
     text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* header styles  */
@@ -58,7 +67,7 @@ header{
     font-size: 1rem;
     color: #3A3A3A;
     font-weight: 400;
-    padding: 10px 30px 10px 0px;
+    padding: 0px 30px 10px 0px;
 }
 .header-img{
     height: 440px;
