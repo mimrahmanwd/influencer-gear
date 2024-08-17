@@ -5,3 +5,72 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+
+/* nav related style  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+/* header styles  */
+
+header{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-content{
+    padding-right: 100px;
+}
+
+.head-title{
+    font-size:3.35rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+
+.head-description{
+    font-size: 1rem;
+    color: #3A3A3A;
+    font-weight: 400;
+    padding: 10px 30px 10px 0px;
+}
+.header-img{
+    height: 440px;
+    width: 414px;
+}
+
+.btn-primary{
+    height:44px;
+    width:196px;
+    border-radius: 55px;
+    background: #E02C6D;
+    border: 0;
+    color: #FFFFFF;
+}
+
