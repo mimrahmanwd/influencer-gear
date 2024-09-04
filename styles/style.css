@@ -175,6 +175,47 @@ header{
     display: none;
 }
 
+.featured{
+    margin: 100px 0px;
+}
+
+.featured-container{
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.featured-content{
+    padding-left: 150px;
+}
+.featured-title{
+    font-size:2.5rem;
+    font-weight: 700;
+    color: #0A0826;
+}
+.featured-des{
+    color: #0A0826;
+    font-size: 1rem;
+   
+}
+ 
+.featured-btn{
+    padding: 10px 24px;
+    color:#FFFFFF;
+    background:#E02C6D;
+    border: 0;
+}
+
+.featured-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 
 /* responsive media query  */
