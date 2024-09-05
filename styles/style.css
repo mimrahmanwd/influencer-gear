@@ -4,6 +4,8 @@
 /* shared style  */
 body{
     font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* nav related style  */
@@ -211,6 +213,41 @@ header{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.footer-text{
+    text-align: center;
+}
+
+.footer-text h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-text p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    background:#0A0826;
+}
+
+
+
+
 
 
 
